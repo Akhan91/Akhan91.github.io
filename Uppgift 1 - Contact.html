@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="Uppgift 1 - Contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="header">
+            <p>Contact me</p>
+            <h6>I would love to get your feedback!</h6>
+        </div>
+        <div class="nav-wrap">
+
+            <ul class="nav">
+                <li><a href="Uppgift 1- Hemsida basic layout - Home.html">Home</a></li>
+
+                <li><a class="active" href="Uppgift 1 - Contact.html">Contact</a></li>
+
+                <li class="dropdown">
+                    <a href="Uppgift 1- Portfolio.html" class="dropbtn">Portfolio
+                        </a>
+                    <div class="dropdown-content">
+                        <a href="Uppgift 1- Portfolio.html">Facebook</a>
+                        <a href="Uppgift 1- Portfolio.html">Google</a>
+                        <a href="Uppgift 1- Portfolio.html">Microsoft</a>
+                    </div>
+                </li>
+                <li><a href="Uppgift 1- About.html">About</a></li>
+            </ul>
+
+            <!-- <div class="clearfix-nav"></div>
+            .clearfix-nav i CSS if needed -->
+
+
+        </div>
+
+
+
+
+
+        <!------------------- FORM START HERE -------------------->
+
+
+        <form action="my-form-submitting-text" method="post">
+
+            <!-- action= is where the form sends data to -->
+            <!-- method= is which HTTP get/post -->
+
+            <input type="text" name="fname" id="fname" for="fname" placeholder="First Name" required>
+
+            <input type="text" name="lname" id="lname" for="lname" placeholder="Last Name" required>
+
+            <label for="email"></label>
+            <input type="email" name="mail" id="email" for="email" placeholder="Email" required>
+
+            <br>
+
+            <label for="male" class="gender">Male</label>
+            <input type="radio" name="gender" id="male" for="male">
+
+            <label for="female" class="gender">Female</label>
+            <input type="radio" name="gender" id="female" for="female">
+
+            <label for="other" class="gender">Other</label>
+            <input type="radio" name="gender" id="other" for="other">
+
+            <br>
+
+            <textarea rows="10" cols="50" name="message" placeholder="Your Message" required></textarea>
+
+            <br>
+            <label for="policy" class="policy">I accept the terms and conditions</label>
+            <input type="checkbox" name="policy" for="policy" id="policy">
+            <br>
+            <input type="submit" name="send" value="Send">
+
+
+        </form>
+
+        <div class="clearfix-footer"></div>
+        <!-- .clearfix-footer i CSS -->
+
+        <div class="footer">
+
+            <p>Instagram: <a href="https://instagram.se">Akhan</a>
+                <br> Facebook: <a href="http://facebook.com">Akhan</a>
+            </p>
+        </div>
+        <!-- .footer in CSS -->
+</body>
+
+</html>

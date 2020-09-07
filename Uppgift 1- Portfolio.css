@@ -1,0 +1,295 @@
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #17303f;
+}
+
+.header {
+    height: 100px;
+    background-color: #3ba38e;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    border-radius: 25px;
+}
+
+.header p {
+    margin: 0px;
+}
+
+ul.nav {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    line-height: 36px;
+    overflow: hidden;
+}
+
+ul.nav li {
+    list-style-type: none;
+    /* border-right:1px  solid #ffffff;  */
+    /* To create Borders between the nav options */
+    float: left;
+}
+
+ul li a {
+    display: block;
+    padding: 5px 28px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.nav a:hover,
+ul.nav li.current a .dropdown:hover .dropbtn {
+    float: left;
+    color: #c8eee6;
+}
+
+li.dropdown:hover .dropbtn {
+    background-color: #333;
+}
+
+.nav-wrap {
+    background-color: rgb(11, 59, 57);
+    float: left;
+    width: 980px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+}
+
+.active {
+    background-color: #57ac9b7a;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a .dropbtn {
+    display: inline-block;
+    color: rgb(91, 170, 117);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown:hover .dropbtn {
+    /* background-color: red; */
+    display: block;
+}
+
+li.dropdown {
+    display: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(11, 59, 57);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 166px;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(11, 59, 57);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* -------------------- PORTFOLIO STARTS FROM HERE --------- */
+
+.sidebar {
+    width: 275px;
+    height: 350px;
+    background-color: #57ac9b;
+    color: #ffffff;
+    float: left;
+    font-style: oblique;
+    border-radius: 25px;
+}
+
+.sidebar-P {
+    padding: 90px;
+    font-size: 17px;
+    padding-top: 120px;
+}
+
+.facebook-pic {
+    width: 250px;
+    height: 100px;
+    /* padding-right: 160px; */
+    position: relative;
+    bottom: 120px;
+    right: 77px;
+    border-radius: 25px;
+}
+
+.facebook-info {
+    font-size: 20px;
+    position: relative;
+    bottom: 180px;
+    left: 60px;
+}
+
+.facebook-task {
+    font-size: 20px;
+    position: relative;
+    bottom: 300px;
+    left: 60px;
+    padding: 0px 0px 50px 0px;
+}
+
+.facebook-task li {
+    position: relative;
+    top: 50px;
+    list-style-type: none;
+}
+
+.middlebar {
+    width: 275px;
+    height: 350px;
+    background-color: #57ac9b;
+    color: #ffffff;
+    float: left;
+    font-style: oblique;
+    border-radius: 25px;
+    margin: 0px 0px 0px 60px;
+}
+
+.middlebar-P {
+    padding: 90px;
+    font-size: 17px;
+    padding-top: 120px;
+}
+
+.google-pic {
+    width: 250px;
+    height: 100px;
+    /* padding-right: 160px; */
+    position: relative;
+    bottom: 120px;
+    right: 77px;
+    border-radius: 25px;
+}
+
+.google-info {
+    font-size: 20px;
+    position: relative;
+    bottom: 180px;
+    left: 60px;
+}
+
+.google-task {
+    font-size: 20px;
+    position: relative;
+    bottom: 300px;
+    left: 60px;
+    padding: 0px 0px 50px 0px;
+}
+
+.google-task li {
+    position: relative;
+    top: 50px;
+    list-style-type: none;
+}
+
+.rightbar {
+    width: 275px;
+    height: 350px;
+    background-color: #57ac9b;
+    color: #ffffff;
+    float: left;
+    font-style: oblique;
+    border-radius: 25px;
+    margin: 0px 0px 0px 60px;
+}
+
+.rightbar-P {
+    padding: 90px;
+    font-size: 17px;
+    padding-top: 120px;
+}
+
+.microsoft-pic {
+    width: 250px;
+    height: 100px;
+    /* padding-right: 160px; */
+    position: relative;
+    bottom: 120px;
+    right: 77px;
+    border-radius: 25px;
+}
+
+.microsoft-info {
+    font-size: 20px;
+    position: relative;
+    bottom: 180px;
+    left: 60px;
+}
+
+.microsoft-task {
+    font-size: 20px;
+    position: relative;
+    bottom: 300px;
+    left: 60px;
+    padding: 0px 0px 50px 0px;
+}
+
+.microsoft-task li {
+    position: relative;
+    top: 50px;
+    list-style-type: none;
+}
+
+
+/* -----------------------FOOTER START HERE---------------- */
+
+.clearfix-footer {
+    clear: both;
+}
+
+.footer {
+    height: 65px;
+    margin-top: 25px;
+    background-color: rgb(14, 71, 69);
+    color: #ffffff;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-top: 1px;
+    font-size: 18px;
+}
+
+.footer p a {
+    font-size: 18px;
+    margin: 5px;
+}
+
+p.copyright {
+    margin-bottom: 10px;
+}
